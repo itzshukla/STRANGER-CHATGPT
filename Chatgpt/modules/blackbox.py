@@ -10,7 +10,7 @@ from config import *
 from ..modules.buttons import *
 
 
-from ShashankAPI import api
+from ShashanksAPI import api
 x=None
 #blackbox
 @Shashank.on_message(filters.command(["blackbox"],  prefixes=["+", ".", "/", "-", "?", "$","#","&"]))
