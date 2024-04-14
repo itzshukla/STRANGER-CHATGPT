@@ -9,7 +9,7 @@ from .. import Shashank
 from config import *
 from ..modules.buttons import *
 #  bard 
-from ShashankAPI import api
+from ShashanksAPI import api
 x=None
 @Shashank.on_message(filters.command(["bard"],  prefixes=["+", ".", "/", "-", "?", "$","#","&"]))
 async def bard_chat(bot, message):
