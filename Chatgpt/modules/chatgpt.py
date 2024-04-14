@@ -8,7 +8,7 @@ from .. import Shashank
 from config import *
 from ..modules.buttons import *
 from pyrogram.enums import ChatAction
-from ShashankAPI import api
+from ShashanksAPI import api
 @Mukesh.on_message(filters.command(["chatgpt","ai","ask"],  prefixes=["+", ".", "/", "-", "?", "$","#","&"]))
 async def chatgpt_chat(bot, message):
     
