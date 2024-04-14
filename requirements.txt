@@ -1,0 +1,12 @@
+aiofiles
+pyrogram
+requests
+dnspython
+# tgcrypto
+asyncio
+pymongo
+motor
+pillow
+numpy
+ShashankAPI
+lxml[html_clean]
