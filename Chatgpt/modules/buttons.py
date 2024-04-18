@@ -110,7 +110,7 @@ SOURCE_BUTTONS = IKM(
 )
 SOURCE_BUTTON = IKM(
     [
-        [IKB("sᴏᴜʀᴄᴇ" ,url=xy)
+        [IKB("sᴏᴜʀᴄᴇ" ,url=f"https://github.com/itzshukla/STRANGER-CHATGPT")
         ]
     ]
 )
