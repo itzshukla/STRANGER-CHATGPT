@@ -9,7 +9,7 @@ from config import *
 from ..modules.buttons import *
 from pyrogram.enums import ChatAction
 from MukeshAPI import api
-@Mukesh.on_message(filters.command(["chatgpt","ai","ask"],  prefixes=["+", ".", "/", "-", "?", "$","#","&"]))
+@Shashank.on_message(filters.command(["chatgpt","ai","ask"],  prefixes=["+", ".", "/", "-", "?", "$","#","&"]))
 async def chatgpt_chat(bot, message):
     
     if len(message.command) < 2:
