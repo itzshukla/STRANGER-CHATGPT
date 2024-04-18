@@ -8,7 +8,7 @@ from ..modules.buttons import *
 from Chatgpt.database import *
 from pyrogram.enums import ChatType, ParseMode
 
-@Mukesh.on_message(filters.command(["start", f"start@{Shashank.username}"]))
+@Shashank.on_message(filters.command(["start", f"start@{Shashank.username}"]))
 async def start(_, m):
     accha = await m.reply_text(f"{g}")
     await asyncio.sleep(0.2)
