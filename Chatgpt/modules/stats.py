@@ -7,7 +7,7 @@ from .. import Shashank
 from ..database import *
 
 
-@Mukesh.on_message(filters.command(["stats", f"tgt@{Shashank.username}"]))
+@Shashank.on_message(filters.command(["stats", f"tgt@{Shashank.username}"]))
 async def stats(_, m):
     users = len(await get_served_users())
     chats = len(await get_served_chats())
